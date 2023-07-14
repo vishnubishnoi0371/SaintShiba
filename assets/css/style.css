@@ -263,11 +263,6 @@ nav ul {
     background: #0C0B0B;
 }
 
-/* .col-12{
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
-} */
 
 .card11:hover {
     color: #F06500;
@@ -832,7 +827,7 @@ line-height: 180%;
     }
     .para1 {
       
-        font-size: 96px;
+        font-size: 59px;
       
     }
     .para3 {
