@@ -86,6 +86,7 @@ nav ul {
     border-radius: 10px;
     background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
     backdrop-filter: blur(16px);
+    border: 4px solid #454443;
 }
 
 .card10:hover {
@@ -123,15 +124,21 @@ nav ul {
     border-radius: 23.5px;
     border: 2px solid var(--gradient-h, linear-gradient(90deg, #FFA800 0%, #F06500 100%));
     cursor: pointer;
+    font-size: 22px;
 }
 
 .back-img {
     background-image: url(../images/backimg.png);
     background-position: center;
     background-size: cover;
+    
+
 
 }
-
+.bg-b9{
+    background-color: #1D1A1A;
+    backdrop-filter: blur(16px);
+}
 .col-3 {
     width: 25%;
     padding-left: 12px;
@@ -215,7 +222,7 @@ nav ul {
 }
 
 .para7 {
-
+    color: #B6B6B6;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -266,17 +273,24 @@ nav ul {
 
 .accordion-item {
     border: 3px solid grey;
+    margin-bottom: 10px;
 }
 
 .accordion {
     border: none;
 }
-
+.accordian-body{
+    backdrop-filter: blur(16px);
+}
+.nav-card{
+    background: rgba(0, 0, 0, 0.75);
+backdrop-filter: blur(1px);
+}
 .mt-22 {
     margin-top: 22px;
 }
 
-.mb-10{
+.mb-10 {
     margin-bottom: 10px;
 }
 
@@ -339,7 +353,11 @@ nav ul {
 }
 
 .mt-60 {
-    margin-top: 20px;
+    margin-top: 60px;
+}
+
+.ml-50 {
+    margin-left: 50px;
 }
 
 .mt-50 {
@@ -423,6 +441,10 @@ nav ul {
 
 .pwhen:hover {
     color: #F06500;
+}
+
+.clr-b9 {
+    color: #B9B8B8;
 }
 
 .clr-box-1 {
@@ -538,10 +560,15 @@ nav ul {
 
 .card000 {
     border-radius: 10px;
-    background: #18191a;
-    
+    border: solid #454443;
+    /* background: #18191a; */
+    border-radius: 10px;
+    background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(16px);
+
 }
-.ml-10{
+
+.ml-10 {
     margin-left: 10px;
 }
 
@@ -622,6 +649,7 @@ nav ul {
     right: -13px;
     background-color: #F06500;
     border: 4px solid #F06500;
+
     top: 14%;
     border-radius: 50%;
     z-index: 2;
@@ -713,7 +741,7 @@ p {
 }
 
 .amet {
-    color: var(--white, #FFF);
+    color: #B6B6B6;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -838,6 +866,10 @@ p {
         font-size: 12px;
 
     }
+
+    .ml-50 {
+        margin-left: 0px;
+    }
 }
 
 @media (min-width:576px) {
@@ -893,6 +925,10 @@ p {
 
         font-size: 18px;
 
+    }
+
+    .ml-50 {
+        margin-left: 50px;
     }
 
 }
